@@ -1,0 +1,56 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'raleway', sans-serif;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+}
+/* Header*/
+.header {
+}
+.logo {
+    width: 85px;
+    margin: 15px;
+    float: left;
+}
+.signup_btn {
+    margin: 15px;
+    margin-top: 29px;
+    float: right;
+    color: #0065FC;
+    font-weight: bold;
+}
+.header_link {
+    padding-top: 80px;
+}
+.hosting {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    color: #0065FC;
+    border-bottom: 2px solid #0065FC;
+    padding-bottom: 10px;
+}
+.activity{
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    margin-top: -30px;
+    width: 50%;
+    border-bottom: 2px solid #F2F2F2;
+    padding-bottom: 10px;
+}
+.activity:hover {
+    color: #0065FC;
+    border-bottom: 2px solid #0065FC;
+}
+.body {
+    max-width: 280px;
+    max-height: 653px;
+}
+img {
+    width: 50%;
+}
+

@@ -7,9 +7,11 @@
 a {
     color: black;
 }
-/* Header*/
-.header {
+.body {
+    max-width: 280px;
+    max-height: 653px;
 }
+/* Header*/
 .logo {
     width: 85px;
     margin: 15px;
@@ -45,12 +47,31 @@ a {
 .activity:hover {
     color: #0065FC;
     border-bottom: 2px solid #0065FC;
+    transition: 0.25s;
 }
-.body {
-    max-width: 280px;
-    max-height: 653px;
+.title {
+	margin: 20px;
+	font-size: 9px;
+}
+.title h1 {
+	font-style: bold;
+}
+.title p{
+    font-size: 12px;
+}
+.searchbar {
+    margin-bottom: 80px;
+}
+.fa-map-marker-alt {
+    background-color:#F2F2F2;
+    border-radius: 15px 0 0 15px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.search_text {
+    display: none;
 }
 img {
     width: 50%;
 }
-

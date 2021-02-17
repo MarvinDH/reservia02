@@ -44,31 +44,51 @@ a {
     border-bottom: 2px solid #F2F2F2;
     padding-bottom: 10px;
 }
-.activity:hover {
+.activity:hover{
     color: #0065FC;
     border-bottom: 2px solid #0065FC;
-    transition: 0.25s;
+    transition: .5s;
 }
 .title {
-	margin: 20px;
-	font-size: 9px;
+    margin: 15px;
 }
 .title h1 {
 	font-style: bold;
+    font-size: 17px;
 }
 .title p{
-    font-size: 12px;
+    font-size: 13px;
 }
 .searchbar {
-    margin-bottom: 80px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
 }
 .fa-map-marker-alt {
     background-color:#F2F2F2;
     border-radius: 15px 0 0 15px;
-    padding: 15px;
-    font-size: 20px;
+    padding: 17px;
+    font-size: 16px;
 }
-
+input {
+    width: 200px;
+    border: 1px solid #F2F2F2;
+    padding: 15px;
+    font-weight: 700;
+    color: black;
+}
+.placeholder::input-placeholder {
+    font-weight: 800;
+    color: black;
+}
+.fa-search {
+    margin-left: -40px;
+    background-color:#0065FC;
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+    padding: 17px;
+    font-size: 16px;
+}
 .search_text {
     display: none;
 }

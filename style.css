@@ -93,7 +93,9 @@ input {
     display: none;
 }
 img {
-    width: 50%;
+    max-width: 100%;
+	width: 100%;
+	max-height: 100%;
 }
 .filter p {
     font-weight: bold;
@@ -149,6 +151,35 @@ img {
     font-size: 12px;
     margin-left: 5px;
     margin-right: 15px;
+}
+.hosting_notation{
+    color: #0065FC;
+}
+.fa-star[data-active="true"] {
+    color: #dfdfdf;
+}
+.popular {
+    background-color: #F2F2F2;
+}
+.popular_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+    font-size: 14px;
+}
+.hosting_title{
+    margin-left: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.view_more{
+    margin-left: 15px;
+    font-weight: bold;
+}
+.activity_title{
+    margin: 15px;
+    font-size: 20px;
 }
 .footer_container {
     background-color: #F2F2F2;

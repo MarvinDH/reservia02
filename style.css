@@ -50,7 +50,7 @@ a {
     margin: 15px;
 }
 .title h1 {
-	font-style: bold;
+	font-weight: bold;
     font-size: 17px;
 }
 .title p{
@@ -75,7 +75,7 @@ input {
     font-weight: 700;
     color: black;
 }
-.placeholder::input-placeholder {
+.placeholder[input-placeholder] {
     font-weight: 800;
     color: black;
 }

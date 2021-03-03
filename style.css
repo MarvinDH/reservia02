@@ -69,7 +69,7 @@ a {
     font-size: 16px;
 }
 input {
-    width: 200px;
+    min-width: 200px;
     border: 1px solid #F2F2F2;
     padding: 15px;
     font-weight: 700;
@@ -164,9 +164,7 @@ aside img {
 	border-radius: 16px 0 0 16px;
 }
 aside .popular_img {
-    display: flex;
-    flex-wrap: wrap;
-	align-items: stretch;
+    display: inline-block;
 }
 .popular {
     background-color: #F2F2F2;
@@ -183,7 +181,7 @@ aside .popular_img {
     box-shadow: 0 0 16px #0000002e;
     background-color: white;
     border-radius: 16px;
-    width: 250px;
+    min-width: 250px;
     height: 110px;
     margin: 15px;
     transition-duration: 0.5s;
@@ -216,7 +214,7 @@ article img {
     box-shadow: 0 0 16px #0000002e;
     border-radius: 16px;
     cursor: pointer;
-    width: 250px;
+    min-width: 250px;
     height: 200px;
     margin: 15px;
     transition-duration: 0.5s;
@@ -257,7 +255,7 @@ article img {
 .activity_card{
     border-radius: 16px 16px 16px 16px;
     box-shadow: 0 0 16px #0000002e;
-    width: 250px;
+    min-width: 250px;
     height: 190px;
     margin: 15px;
     transition-duration: .5s;

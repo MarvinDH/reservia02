@@ -160,7 +160,7 @@ aside img {
 	justify-content: space-between;
     object-fit: cover;
     height: 110px;
-    width: 110px;
+    width: 25%;
 	border-radius: 16px 0 0 16px;
 }
 aside .popular_img {

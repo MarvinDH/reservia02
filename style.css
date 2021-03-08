@@ -89,6 +89,11 @@ input {
 }
 .search_text {
     display: none;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    padding: 15px;
+    font-weight: bold;
 }
 img {
     max-width: 100%;
@@ -155,6 +160,10 @@ img {
     margin-right: 15px;
 }
 /*popular*/
+.fa-chart-line:before{
+    content: "\f201";
+    margin-left: 10px;
+}
 aside img {
     display: flex;
 	justify-content: space-between;
@@ -172,7 +181,6 @@ aside .popular_img {
 .popular_header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
     margin: 15px;
     font-size: 14px;
 }

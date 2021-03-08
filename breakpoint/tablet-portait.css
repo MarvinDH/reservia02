@@ -1,0 +1,15 @@
+@media screen and (min-width:600px) {
+    /*Search*/
+    .loupe{
+        display: none;
+    }
+    .search_text{
+        display: block;
+    }
+    /*activity*/
+    .activity_zone a{
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+    }
+}

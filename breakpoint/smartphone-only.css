@@ -1,13 +1,11 @@
-@media screen and (max-width:599px) {
-
-}
-
 @media screen and (min-width:400px) {
+    /*popular*/
+    aside .popular_img{
+        display: flow-root;
+    }
+    /*activity*/
     .activity_zone a{
         display: flex;
         flex-direction: column;
-    }
-    aside .popular_img{
-        display: flow-root;
     }
 }

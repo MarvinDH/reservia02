@@ -1,1 +1,66 @@
-@media screen and (min-width:900px)
+@media screen and (min-width:900px) {
+    /*header*/
+    .header_link{
+        display: flex;
+        float: right;
+        padding-top: 0px;
+        margin-bottom: 53px;
+    }
+    .hosting{
+        padding: 32px;
+        border-bottom: none;
+        border-top: 3px solid #0065fc;
+        width: auto;
+        float: right;
+        margin-top: auto;
+    }
+    .activity{
+        padding: 32px;
+        border-bottom: none;
+        width: auto;
+        float: right;
+        margin-top: auto;
+    }
+    .activity:hover{
+        color: #0065FC;
+        border-top: 3px solid #0065FC;
+        border-bottom: none;
+    }
+    .signup_btn{
+       margin-top: 35px; 
+    }
+    /*text*/
+    .title{
+        padding-top: 7rem;
+        margin: 0 15px;
+    }
+    /*popular*/
+    aside .popular_img{
+        display: flex;
+    }
+    .popular{
+        margin: 15px;
+        border-radius: 15px;
+    }
+    /*hosting*/
+    .hosting_zone a{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .hosting_zone{
+        background-color: #F2F2F2;
+        margin: 15px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    /*activity*/
+    .activity_zone a{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /*footer*/
+    .footer_container{
+        display: flex;
+        justify-content: space-evenly;
+        height: 200px;
+    }
+}

@@ -220,6 +220,7 @@ article img {
 }
 .hosting_card{
     box-shadow: 0 0 16px #0000002e;
+    background-color: white;
     border-radius: 16px;
     cursor: pointer;
     min-width: 250px;

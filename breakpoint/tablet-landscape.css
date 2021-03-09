@@ -43,7 +43,7 @@
         border-radius: 15px;
     }
     /*hosting*/
-    .hosting_zone a{
+    .hosting_img{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -54,7 +54,7 @@
         padding: 10px;
     }
     /*activity*/
-    .activity_zone a{
+    .activity_display{
         grid-template-columns: 1fr 1fr 1fr;
     }
     /*footer*/

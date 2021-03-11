@@ -245,8 +245,14 @@ article img {
 .hosting_zone{
     border-radius: 16px 16px 0 0;
 }
-.whitespace{
-    padding-top: 5px;
+.whitespace_a{
+    padding-top: 35px;
+}
+.whitespace_b{
+    padding-top: 22px;
+}
+.whitespace_c{
+    padding-top: 35px;
 }
 .view_more{
     margin-left: 15px;

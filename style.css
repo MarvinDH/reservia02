@@ -182,7 +182,8 @@ aside .popular_img {
     display: flex;
     align-items: center;
     margin-left: 15px;
-    font-size: 14px;
+    font-size: 12px;
+    margin-top: 5%;
 }
 .popular_card {
     display: flex;

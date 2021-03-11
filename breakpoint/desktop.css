@@ -1,3 +1,12 @@
 @media screen and (min-width:1200px){
-    
+    .popular{
+        float: right;
+        max-width: 25%;
+    }
+    aside .popular_img{
+        display: inline-block;
+    }
+    .hosting_zone{
+        max-width: 70%;
+    }
 }

@@ -14,4 +14,32 @@
     .hosting_zone{
         max-width: 70%;
     }
+    /*activity*/
+    .item-1{
+        grid-area: i1;
+        grid-row: 1 / -1;
+    }
+    .item-2{
+        grid-area: i2;
+    }
+    .item-3{
+        grid-area: i3;
+    }
+    .item-4{
+        grid-area: i4;
+    }
+    .item-5{
+        grid-area: i5;
+    }
+    .item-6{
+        grid-area: i6;
+    }
+    .activity_display{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "i1 i2 i3 i4"
+            "i1 i5 i3 i6"
+    }
 }

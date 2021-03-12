@@ -37,9 +37,12 @@
     .activity_display{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 2rem 2rem 2rem 1fr;
         grid-template-areas: 
             "i1 i2 i3 i4"
+            "i1 i2 i3 i4"
+            "i1 i2 i3 i6"
+            "i1 i5 i3 i6"
             "i1 i5 i3 i6"
     }
 }

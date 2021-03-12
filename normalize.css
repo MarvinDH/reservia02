@@ -21,7 +21,7 @@
    */
   
   body {
-    margin: 0;
+    margin: auto;
   }
   
   /**
@@ -29,7 +29,13 @@
    */
   
   main {
+    margin: auto;
     display: block;
+    max-width: 1440px;
+  }
+  .header{
+    max-width: 1440px;
+    margin: auto;
   }
   
   /**

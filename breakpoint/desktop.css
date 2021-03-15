@@ -15,15 +15,45 @@
         max-width: 70%;
     }
     /*activity*/
+    .activity_display{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 2rem 2rem 2rem 1fr;
+        grid-template-areas: 
+            "i1 i2 i3 i4"
+            "i1 i2 i3 i4"
+            "i1 i2 i3 i6"
+            "i1 i5 i3 i6"
+            "i1 i5 i3 i6";
+        margin-bottom: 20px;
+    }
     .item-1{
         grid-area: i1;
         grid-row: 1 / -1;
     }
+    .item-1 img{
+        min-height: 400px;
+    }
+    .item-1 .activity_card{
+        min-height: 440px;
+    }
     .item-2{
         grid-area: i2;
     }
+    .item-2 img{
+        min-height: 180px;
+    }
+    .item-2 .activity_card{
+        min-height: 220px;
+    }
     .item-3{
         grid-area: i3;
+    }
+    .item-3 img{
+        min-height: 400px;
+    }
+    .item-3 .activity_card{
+        min-height: 440px;
     }
     .item-4{
         grid-area: i4;
@@ -34,15 +64,10 @@
     .item-6{
         grid-area: i6;
     }
-    .activity_display{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 2rem 2rem 2rem 1fr;
-        grid-template-areas: 
-            "i1 i2 i3 i4"
-            "i1 i2 i3 i4"
-            "i1 i2 i3 i6"
-            "i1 i5 i3 i6"
-            "i1 i5 i3 i6"
+    .item-6 img{
+        min-height: 180px;
+    }
+    .item-6 .activity_card{
+        min-height: 220px;
     }
 }

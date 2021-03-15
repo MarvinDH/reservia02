@@ -291,6 +291,9 @@ article img {
     padding-top: 13px;
     margin-bottom: 0px;
 }
+.footer_column a:hover{
+    text-decoration: underline;
+}
 .footer ul{
     padding: 0px 0px 0px 0px;
 }
